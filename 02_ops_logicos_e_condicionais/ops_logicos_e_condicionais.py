@@ -1,6 +1,6 @@
 # Aula: Operadores lógicos e estruturas condicionais
 
-# 1. Operadores lógicos
+# 1.Operadores lógicos
 
 # Os operadores lógicos permitem combinar condições.
 
