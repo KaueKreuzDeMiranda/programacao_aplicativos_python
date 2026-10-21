@@ -34,30 +34,3 @@ print(celular2.bateria)
 # 5. Chamando métodos
 celular2.ligar()
 celular2.desligar()
-
-# 6. Atividades
-
-class Cachorro:
-    def __init__ (self, nome, raca, idade):
-        self.nome = nome
-        self.raca = raca
-        self.idade = idade
-
-    def latir(self):
-        print("\n" , self.nome , " diz: Au au!")
-
-    def mostrarInfo(self):
-        print("\nNome: " , self.nome)
-        print("Raça: " , self.raca)
-        print("Idade: " , self.idade)
-
-cachorro1 = Cachorro("Rex", "cachorro", 10)
-cachorro2 = Cachorro("Cleber", "cachorro bravo", 33)
-
-cachorro1.latir()
-cachorro2.latir()
-cachorro1.mostrarInfo()
-cachorro2.mostrarInfo()
-
-cachorro1.idade = 2
-cachorro1.mostrarInfo()
